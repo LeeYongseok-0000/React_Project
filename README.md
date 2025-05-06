@@ -6,6 +6,9 @@
 + #### 브라우저의 LocalStorage를 이용한 데이터 저장 기능 적용
 + #### React의 Hook 함수 사용을 통한 게시글 및 검색창 상태 관리
 
+## PDF
+[이용석.pdf](https://github.com/user-attachments/files/20053924/default.pdf)
+
 ## 페이지 구현
 
 + ### 메인 페이지
@@ -14,5 +17,5 @@
 ![Image](https://github.com/user-attachments/assets/c7d788df-edef-4acf-bb41-6e618b698b06)
 + ### 영화 상세 정보 페이지
 ![Image](https://github.com/user-attachments/assets/a6acdcfc-568d-4404-b5d7-52c4573e7fa4)
-+ ### QnA 등록 수정 삭제 구현 영상
-![Image](https://github.com/user-attachments/assets/5aa125b4-d751-4a4f-93a9-ae12fbdd5804)
++ ### QnA 페이지 
+![Image](https://github.com/user-attachments/assets/b7f2fbf6-3ae3-4ffc-9df6-7878f356bd1e)
