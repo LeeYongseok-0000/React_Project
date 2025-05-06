@@ -1,1 +1,18 @@
 # React_Project
+#### TMDB API를 활용한 React 기반의 SPA 프로젝트로, 게시글 등록 및 관리 기능을 포함한 CRUD 구현
+
+## 기능
++ #### TMDB API를 연동하여 Route 기반의 단일 페이지 애플리케이션(SPA) 구성
++ #### 브라우저의 LocalStorage를 이용한 데이터 저장 기능 적용
++ #### React의 Hook 함수 사용을 통한 게시글 및 검색창 상태 관리
+
+## 페이지 구현
+
++ ### 메인 페이지
+![Image](https://github.com/user-attachments/assets/74c9d1f0-8d17-43d1-9daf-3c5bf0fd4d22)
++ ### 영화 검색 후 검색 결과 페이지
+![Image](https://github.com/user-attachments/assets/c7d788df-edef-4acf-bb41-6e618b698b06)
++ ### 영화 상세 정보 페이지
+![Image](https://github.com/user-attachments/assets/a6acdcfc-568d-4404-b5d7-52c4573e7fa4)
++ ### QnA 등록 수정 삭제 구현 영상
+![Image](https://github.com/user-attachments/assets/5aa125b4-d751-4a4f-93a9-ae12fbdd5804)
