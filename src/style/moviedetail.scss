@@ -1,0 +1,302 @@
+.moviedetailbackimgcover{
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 650px; // 원하는 높이
+    z-index: -999;
+    position: absolute;
+    // background-attachment: fixed;
+    // position: absolute;
+    top:0;
+
+    width: 100%;
+    bottom: 10px;
+    z-index: -1;
+    background-position: center 25%;
+  }
+
+
+.allcover{
+    // border: solid 4px green;
+    box-sizing: border-box;
+    padding: 0; margin: 0 auto;
+    width: 70%;
+    display: flex;
+    
+    // align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.caution{
+    text-align: center;
+    font-size: small;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; // 각 <p> 사이 간격
+    padding-top: 0%;
+    padding: 2%;
+}
+
+.communitytilte{
+    // border: solid 1px white;
+    text-align: center;
+    padding: 0; margin: 0;
+}
+
+.mainbox{
+    // border: solid 1px red;
+    
+    font-size: 2em;
+    padding-top: 0%;
+    width: 70%; 
+    // height: 500px;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+    
+    // text-decoration: none;
+    // list-style: none;
+}
+
+.communityul{
+    // border: solid 1px black;
+    display: flex;
+    // flex: 1;
+    list-style: none;
+    // padding-bottom: 2%;
+}
+.communityul li{
+    display: flex;
+    // border: solid 1px yellow;
+    flex: 1;
+    width: 50%;
+    height:100px;
+    // text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.communityul li a {
+    display: block;// inline 요소에서 block으로 변경
+    width: 40%;
+    // height: 100%;
+    text-decoration: none;  
+    text-align: center;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+
+    // justify-content: center;
+    // align-items: center;
+    align-content: center;
+}
+
+.communityul li a:hover{
+    // display: flex;
+    // flex: 1;
+    transition: all 0.5s;
+    background-color: antiquewhite;
+
+}
+
+.main{
+    border: solid 1px red;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: auto 0;
+
+}
+
+
+
+.detailallcover{ //전체 커버 박스
+// border: solid 1px green;
+display: flex;
+flex-direction: column;
+// justify-content: center;
+// align-items: center;
+margin: 0 auto;
+width: 90%;  //사이즈 조정
+height: max-content;
+
+}
+
+.stringcontain{
+color: white;
+text-shadow:
+-1px -1px black,
+ 1px -1px black,
+ -1px  1px black,
+ 1px  1px black,;
+ height: 450px;
+ padding-top: 230px;
+ padding-left: 10px;
+ 
+//  whiteSpace: "pre-wrap", 
+//  wordWrap: "break-word",
+//  lineHeight: "1.5"
+}
+
+.detailmovietitle{   //영화 제목
+// border: solid 1px red;
+// display: flex;
+font-size: 3em;
+margin: 0; 
+color: white;
+// // padding-top: 2%;
+// padding-bottom: 0;
+// padding-inline: 0;
+}
+
+.imgtratilerbox{  //이미지, 트레일러 전체 박스. 이미지 옆에 영상 넣기 위해
+// border: solid 1px green;
+display: flex;
+padding-top: 4%;
+padding-inline: 2%;
+height: 750px;
+// margin:0;
+// flex-direction: column;
+}
+
+.imgbox{ //이미지+ 개봉일 + 평점
+// border: solid 1px blue;
+width: 400px;
+height: 350px;
+}
+
+.detailimg{ //이미지 박스
+display: flex;
+width: 400px;
+}
+
+.watchproviders{
+// border: solid 1px blue;
+display: flex;
+flex-direction: column;
+
+
+h4{
+// border: solid 2px green;
+display: flex;
+font-size: 12px;
+padding-top: 10px;
+}
+
+ul{
+display: flex;
+
+
+}
+
+li{
+// border: solid 10px red;
+flex-direction: column-reverse;
+display: flex;
+// flex-direction: column;
+// width: 50px;
+
+
+}
+//  img{
+// display: flex;
+// flex-direction: column;
+//  }
+
+}
+.movietrailer{ //영화 예고편 박스
+// border: solid 1px red;
+// display: flex;
+width: 70%;
+// justify-content: center;
+// align-items: center;
+justify-items: center;
+margin: 0 auto;
+}
+
+.overviewcontain{
+padding-top: 20px;
+    width: 850px;
+//  border: solid 1px red;
+}
+
+// 출연배우 및 감독
+.personlist{
+border-top: solid 1px gray;
+border-bottom: solid 1px gray;
+padding: 30px;
+display: flex;
+justify-content: center;
+flex:1;
+}
+.actors{
+// border: solid 1px red;
+display: flex;
+gap: 10px;
+padding: 10px;
+
+}
+
+.actor-card {
+display: flex;
+flex-direction: column; 
+align-items: center;
+text-align: center;
+padding: 10px;
+max-width: 400px; 
+// background-color: antiquewhite;
+}
+
+.reviewscontain {
+display: flex;
+height: 200px;
+border-bottom: solid 1px gray;
+gap: 20px;
+padding-inline: 6px;
+justify-content: center;
+}
+
+//   padding: 30px;
+.reviews {
+// flex: 1;
+// display: flex;
+// flex-direction: column;
+gap: 10px;
+border-top: solid 1px gray;
+// overflow-y: auto;
+padding-inline: 10px;
+width: 410px;
+}
+
+
+.similarmovies{
+// border: solid 10px red;
+
+display: flex;
+flex-direction: column;
+// justify-content: center;\
+}
+
+.similarlist{
+justify-content: center;
+display: flex;
+// border: solid 10px red;
+gap: 5%;
+text-align: center;
+  padding-bottom: 30px;
+
+
+
+}
+
+.similarmoive{
+// border: solid 10px red;
+display: flex;
+flex-direction: column;
+
+}

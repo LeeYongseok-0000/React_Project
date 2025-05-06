@@ -1,0 +1,143 @@
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; // input과 button 사이 간격
+  margin-bottom: 20px;
+}
+
+.moviesSearchInputBox {
+  padding: 8px;
+  width: 300px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchButton {
+  padding: 8px 16px;
+  background-color: #ccc;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.moviesPosterContain {
+    
+    width: 70%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #f5f7f9; // 🎨 여기서 배경색 지정!
+    padding: 20px;             // 콘텐츠와 경계 여백 주면 더 보기 좋음
+    border-radius: 8px;        // 모서리 부드럽게
+  //   box-shadow: 0 0 8px rgba(0,0,0,0.1); // 은은한 그림자 효과
+  
+  h2 {
+      color: #333;
+      font-weight: 600;
+      font-size: 1.2em;
+      border-top: 2px solid #69676763;
+      padding-top: 2%;
+      padding-bottom: 1%; 
+  p{
+  
+      color: #333333d2;
+      font-size: 0.6em;
+      // className={styles.moviesPostersubtitle}
+  }
+      
+  }
+  
+  // .moviesPostersubtitle {
+  //     padding-bottom: 1%;
+  // }
+  
+  ul{
+          // border-top: solid 1px gray;
+          list-style: none; 
+          padding-top: 1%;
+          // padding-inline: 4%;
+          // display: flex; 
+          // flex-wrap:wrap;
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                          //minmax를 건들면 오른쪽 공간도 줄어듬
+          gap: 20px;
+          justify-items: center;
+  }
+  
+  div{
+          // background-color: rgb(255, 0, 0);
+      
+      // border: solid 1px green;
+      // font-size: 1.1em;
+      font-weight: 600;
+      color: #555;  /* 다소 차분한 색상 */
+      // text-overflow: ellipsis;
+      // overflow: hidden;
+      // max-width: 200px;
+      
+      font-size: 1em;
+      font-weight: bold;
+      white-space: nowrap;//한 줄로만 내용을 보여주겠다는 의미야.
+      //줄바꿈이 절대 안 되도록 강제하는 CSS 속성
+      overflow: hidden; 
+      text-overflow:ellipsis; //설정한 크기 넘어가면 생략기호 표시 ...
+      max-width: 200px;
+      text-align: left;
+      text-decoration: none;
+  }
+  
+  li{
+      // border:solid 1px blue;
+      width:90%; //300->400->300->200 으로 결정
+      height: auto; //글자랑 겹쳐서 높이조절
+      margin-bottom: 1em;  //1em으로 수정
+      // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      
+  
+  }
+  
+  a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      // color: white;
+    }
+  
+  a:hover {
+      transform: scale(1.05); /* 호버 시 약간의 확대 효과 */
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.568); /* 강조 효과 */
+      // background-color: beige;
+      // text-decoration: none;
+    }
+  
+  img{
+      // border: solid 1px red;
+      display:flex;
+      margin: auto;
+      width: 200px; //이미지에 직접 값을 줬음.
+      height: 300px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  p {
+      
+      // margin-top: 5px;
+      font-size: 0.9em;
+      color: gray;
+    }
+  
+  }
+  
+  
+  
+  
+  
